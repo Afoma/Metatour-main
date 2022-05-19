@@ -5,6 +5,9 @@ import Home from './pages/Home';
 import Web3Schools from './pages/Web3Schools';
 import DAOs from './pages/DAOs';
 import NFTMarketPlaces from './pages/NFTMarketPlaces';
+import Web3Jobs from './pages/Web3Jobs';
+import Web3Grants from './pages/Web3Grants';
+
 function App() {
   return (
     <>
@@ -15,6 +18,8 @@ function App() {
         <Route path='/Web3Schools' element={<Web3Schools/>} />
         <Route path='/DAOs' element={<DAOs/>} />
         <Route path='/NFTMarketPlaces' element={<NFTMarketPlaces/>} />
+        <Route path='/Web3Grants' element={<Web3Grants/>} />
+        <Route path='/Web3Jobs' element={<Web3Jobs/>} />
       </Routes>
     </Router>
     </>

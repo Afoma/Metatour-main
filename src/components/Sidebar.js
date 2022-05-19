@@ -20,6 +20,7 @@ function Sidebar() {
             </Link>
         </div>
         <nav className={sidebar ? 'side-menu active' : 'side-menu'}>
+
             <ul className='side-menu-items' onClick={showSidebar}>
                 <li className='sidebar-toggle'>
                     <Link to='#' className='menu-bars'>
