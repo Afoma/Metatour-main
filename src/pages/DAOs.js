@@ -34,6 +34,7 @@ function DAOs() {
     ])
   return (
     <div className='daos'>
+        <h1 className="content">DAOs</h1>
         <Dropdown 
           options={options}
         />

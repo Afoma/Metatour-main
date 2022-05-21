@@ -4,9 +4,10 @@ import Dropdown from '../components/Dropdown';
 
 function NFTMarketPlaces() {
   const [options] = useState([
-    { name: "Learnweb3", url: "https://learnweb3.com" },
-    { name: "Moralis", url: "https://learnweb3.com" },
-    { name: "Rabbithole", url: "https://learnweb3.com" },
+    { name: "Open sea", url: "https://opensea.io/" },
+    { name: "Rarible", url: "https://rarible.com/" },
+    { name: "Mintable", url: "https://mintable.app/" },
+    { name: "Super rare", url: "https://superrare.com/" },
   ]);
 
   return (

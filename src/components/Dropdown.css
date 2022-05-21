@@ -9,10 +9,10 @@
 
 .dropdown .dropdown-btn{
   padding: 15px 20px;
-  background: #fff;
+  background: #D81E5B;
   box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.06);
   font-weight: bold;
-  color:#333;
+  color:#ffff;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -23,10 +23,11 @@ position: absolute;
 top: 110%;
 left: 0;
 padding: 10px;
-background: #fff;
+max-height: 300px;
+overflow-y: auto;
 box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.06);
 font-weight: bold;
-color:#333;
+/* color:#333; */
 width: 95%;
 }
  
@@ -36,6 +37,10 @@ cursor: pointer;
 transition: all 0.2s;
 }
 
+.dropdown-item a{
+  text-decoration: none;
+  color: #D81E5B;
+}
 .dropdown .dropdown-content .dropdown-item:hover{
   background: #f4f4f4;
   

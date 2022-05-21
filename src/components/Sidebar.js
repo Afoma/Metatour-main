@@ -14,17 +14,19 @@ function Sidebar() {
   return (
     <>
     <IconContext.Provider value={{color: '#fff'}}>
-        <div className="sidebar">
+        { !sidebar&&
+            <div className="sidebar">
             <Link to="#" className="menu-bars">
-                <FaIcons.FaBars onClick={showSidebar} />
+                <FaIcons.FaBars color='#D81E5B' onClick={showSidebar} />
             </Link>
         </div>
+        }
         <nav className={sidebar ? 'side-menu active' : 'side-menu'}>
 
             <ul className='side-menu-items' onClick={showSidebar}>
                 <li className='sidebar-toggle'>
                     <Link to='#' className='menu-bars'>
-                        <AiIcons.AiOutlineClose />
+                        <AiIcons.AiOutlineClose color='#ffff' />
                     </Link>
                 </li>
                 {SidebarData.map((item, index) => {

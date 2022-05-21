@@ -1,6 +1,7 @@
 import React from 'react';
-// import * as FaIcons from 'react-icons/fa';
+import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
+import * as BsIcons from 'react-icons/bs';
 // import * as IoIcons from 'react-icons/io';
 
 export const SidebarData = [
@@ -13,25 +14,25 @@ export const SidebarData = [
     {
         title: 'DAOs',
         path: '/daos',
-        icon:<AiIcons.AiFillHome />,
+        icon:<FaIcons.FaBuilding />,
         className: 'sidebar-text'
     },
     {
         title: 'Web3 Schools',
         path: '/web3schools',
-        icon:<AiIcons.AiFillHome />,
+        icon:<FaIcons.FaSchool />,
         className: 'sidebar-text'
     },
     {
         title: 'Web3 Grants',
         path: '/web3grants',
-        icon:<AiIcons.AiFillHome />,
+        icon:<FaIcons.FaGift />,
         className: 'sidebar-text'
     },
     {
         title: 'Web3 Jobs',
         path: '/web3jobs',
-        icon:<AiIcons.AiFillHome />,
+        icon:<BsIcons.BsFillBriefcaseFill />,
         className: 'sidebar-text'
     },
     {

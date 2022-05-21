@@ -21,6 +21,7 @@ function Web3Grants () {
     ])
     return (
         <div>
+            <h1 className="content">Web3 Grants</h1>
             <Dropdown 
             options= {options}
             />

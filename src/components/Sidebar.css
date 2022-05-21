@@ -1,3 +1,7 @@
+.sidebar{
+    position: fixed;
+    top: 10px;
+}
 .menu-bars{
     margin-left: 2rem;
     font-size: 2rem;
@@ -12,6 +16,7 @@
     top: 0;
     left: -100%;
     transition: 850ms;
+    background: #D81E5B;
 }
 
 .side-menu.active{
@@ -30,7 +35,7 @@
 
 .sidebar-text a{
     text-decoration: none;
-    color:#8a3ab9;
+    color: black;
     font-size: 18px;
     width: 95%;
     height: 100%;
@@ -41,7 +46,7 @@
 }
 
 .sidebar-text a:hover {
-    color:#8a3ab9;
+    color:#ffff;
 }
 
 .side-menu-items{
@@ -49,7 +54,6 @@
 }
 
 .sidebar-toggle{
-    background-color:#F3F4F6 ;
     width: 100%;
     height: 80px;
     display: flex;
@@ -66,7 +70,3 @@ span{
      width: 100%;
         }
   }
-
-FaIcons, AiIcons{
-    fill:"black" stroke="green";
-}

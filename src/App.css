@@ -5,22 +5,30 @@
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
-  background: #F3F4F6;
+}
+
+body{
+  background: black;
+  color:#D81E5B;
 }
 
 .home,
 .web3schools,
 .daos,
 .nftmarketplaces,
-.metaversenews{
+.web3grants,
+.web3jobs
+{
   display: flex;
   flex-direction:column;
   height: 90vh;
   align-items: center;
-  justify-content: center;
   font-size: 3rem;
 }
 
+.home{
+  justify-content: center;
+}
 @media screen and (max-width: 600px) {
   h1.content {
     font-size: 0.5em;                 
@@ -29,15 +37,16 @@
     font-size: 0.3em;
   }
   .home,
-.web3schools,
-.daos,
-.nftmarketplaces,
-.metaversenews,
-.metaversequotes{
- padding: 20px;
-}
+  .web3schools,
+  .daos,
+  .nftmarketplaces,
+  .web3grants,
+  .web3jobs
+  {
+  padding: 20px;
+  }
 }
 
 .home p:nth-child(3){
-  font-size: 18px;
+  font-size: 0.3em;
 }
