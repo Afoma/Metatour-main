@@ -12,8 +12,12 @@ function NFTMarketPlaces() {
 
   return (
   <div className='nftmarketplaces'>
-    <Dropdown options={options} />
+    <h1 className="content">NFT Marketplaces</h1>
+    <Dropdown 
+    options={options} 
+    />
   </div>
+
   );
 }
 

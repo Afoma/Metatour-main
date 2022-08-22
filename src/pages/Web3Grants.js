@@ -20,12 +20,13 @@ function Web3Grants () {
         {name: 'The Graph', url: 'https://thegraph.com/blog/wave-four-grants'},
     ])
     return (
-        <div>
+        <div className='web3grants'>
             <h1 className="content">Web3 Grants</h1>
             <Dropdown 
-            options= {options}
+              options={options}
             />
         </div>
+    
     );
 }
 

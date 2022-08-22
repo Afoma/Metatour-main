@@ -38,7 +38,7 @@ export const SidebarData = [
     {
         title: 'NFT Marketplaces',
         path: '/nftmarketplaces',
-        icon:<AiIcons.AiFillHome />,
+        icon:<AiIcons.AiFillShopping />,
         className: 'sidebar-text'
     },
 ]

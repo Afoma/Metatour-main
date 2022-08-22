@@ -31,6 +31,6 @@ export const ClaimButton = () => {
          onClick={connectWithMetamask}>Claim NFT</button>
 
  )}
-    </div>
+    </div>    
   );
 };
