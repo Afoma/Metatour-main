@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+#
+git rm --cached .env
+
 # production
 /build
 

@@ -13,7 +13,7 @@ function Web3Jobs () {
         {name: 'Work on Block', url: 'https://www.workonblock.com/#jobs'}
     ])
     return(
-        <div>
+        <div className='web3jobs'>
             <h1 className="content">Web3 Jobs</h1>
             <Dropdown 
             options= {options} />
