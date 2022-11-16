@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Metatour-main/static/css/main.a5179f8a.css",
+    "main.js": "/Metatour-main/static/js/main.2d2d13e5.js",
+    "index.html": "/Metatour-main/index.html",
+    "main.a5179f8a.css.map": "/Metatour-main/static/css/main.a5179f8a.css.map",
+    "main.2d2d13e5.js.map": "/Metatour-main/static/js/main.2d2d13e5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5179f8a.css",
+    "static/js/main.2d2d13e5.js"
+  ]
+}
