@@ -16,7 +16,7 @@ import Web3Grants from './pages/Web3Grants';
 //   RainbowKitProvider,
 //   darkTheme,
 // } from '@rainbow-me/rainbowkit';
-import { chain, createClient, WagmiProvider } from 'wagmi';
+// import { chain, createClient, WagmiProvider } from 'wagmi';
 
 
 // const { chains, provider } = configureChains(
